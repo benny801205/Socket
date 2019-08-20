@@ -1,18 +1,17 @@
 package Server;
 
-import java.io.BufferedReader;
-import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
-import java.net.Socket;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ * @author Ben Chung 
+ * Reference :https://cs.lmu.edu/~ray/notes/javanetexamples/
+ * 2019/08/19
+ */
 public class DataServer {
 	public static void main(String[] args) throws IOException {
 		String inputString = "";

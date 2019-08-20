@@ -4,6 +4,10 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
+/**
+ * @author Ben Chung
+ * Reference :https://cs.lmu.edu/~ray/notes/javanetexamples/
+ */
 public class DateClient {
 
 	public static void main(String[] args) throws IOException {
